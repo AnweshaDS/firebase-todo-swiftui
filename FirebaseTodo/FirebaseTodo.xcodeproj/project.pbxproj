@@ -14,9 +14,9 @@
 		22239BAE309B2B740048C988 /* FirebaseTodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22239BAD309B2B740048C988 /* FirebaseTodoTests.swift */; };
 		22239BB8309B2B740048C988 /* FirebaseTodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22239BB7309B2B740048C988 /* FirebaseTodoUITests.swift */; };
 		22239BBA309B2B740048C988 /* FirebaseTodoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22239BB9309B2B740048C988 /* FirebaseTodoUITestsLaunchTests.swift */; };
-		22239BC7309B41460048C988 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22239BC6309B41460048C988 /* GoogleService-Info-2.plist */; };
 		229DC903309B458A0014C957 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 229DC902309B458A0014C957 /* FirebaseAuth */; };
 		229DC905309B458A0014C957 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 229DC904309B458A0014C957 /* FirebaseFirestore */; };
+		229DC907309B485F0014C957 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 229DC906309B485F0014C957 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,7 @@
 		22239BB3309B2B740048C988 /* FirebaseTodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseTodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22239BB7309B2B740048C988 /* FirebaseTodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseTodoUITests.swift; sourceTree = "<group>"; };
 		22239BB9309B2B740048C988 /* FirebaseTodoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseTodoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		22239BC6309B41460048C988 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		229DC906309B485F0014C957 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +102,7 @@
 			children = (
 				22239B9C309B2B730048C988 /* FirebaseTodoApp.swift */,
 				22239B9E309B2B730048C988 /* ContentView.swift */,
+				229DC906309B485F0014C957 /* GoogleService-Info.plist */,
 				22239BA0309B2B740048C988 /* Assets.xcassets */,
 				22239BA2309B2B740048C988 /* Preview Content */,
 			);
@@ -129,7 +130,6 @@
 			children = (
 				22239BB7309B2B740048C988 /* FirebaseTodoUITests.swift */,
 				22239BB9309B2B740048C988 /* FirebaseTodoUITestsLaunchTests.swift */,
-				22239BC6309B41460048C988 /* GoogleService-Info-2.plist */,
 			);
 			path = FirebaseTodoUITests;
 			sourceTree = "<group>";
@@ -247,7 +247,7 @@
 			files = (
 				22239BA4309B2B740048C988 /* Preview Assets.xcassets in Resources */,
 				22239BA1309B2B740048C988 /* Assets.xcassets in Resources */,
-				22239BC7309B41460048C988 /* GoogleService-Info-2.plist in Resources */,
+				229DC907309B485F0014C957 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
