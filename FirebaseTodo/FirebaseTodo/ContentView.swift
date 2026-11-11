@@ -12,13 +12,8 @@ struct ContentView: View {
     @EnvironmentObject var authVM: AuthViewModel
 
     var body: some View {
-        if let user = authVM.user {
-            VStack(spacing: 16) {
-                Text("Logged in as \(user.email ?? "")")
-                Button("Logout") {
-                    authVM.signOut()
-                }
-            }
+        if authVM.user != nil {
+            TaskListView()
         } else {
             AuthView()
         }
